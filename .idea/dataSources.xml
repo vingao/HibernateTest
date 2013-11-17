@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3188417707">
+    <data-source source="LOCAL" name="XRA_Jasper_DEV" uuid="2707fd8c-423b-4853-b483-24c3f0fde158">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//xddv1covd:1521/XRCOVD_GEN</jdbc-url>
+      <user-name>XRAJSDMDBO</user-name>
+      <user-password>dfccdfc6dfd3df98dfcedfcbdfd3</user-password>
+      <default-dialect>oracle</default-dialect>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="da970152_ciws" uuid="358ce2cd-3ce3-44b3-bb9b-6a42419d8319">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//da970152:1521/xe</jdbc-url>
+      <user-name>ciws</user-name>
+      <user-password>dfc9dfc3dfdddfd9</user-password>
+      <schema-pattern>*.CIWS</schema-pattern>
+      <default-schemas>*.CIWS</default-schemas>
+      <default-dialect>Oracle</default-dialect>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
