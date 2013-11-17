@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ea339b1-91a1-4c67-a11e-9e3d983fde7f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entities/src/org/example/entities/EntityPerson.java" afterPath="$PROJECT_DIR$/entities/src/org/example/entities/EntityPerson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entities/src/org/example/entities/EntityPersonTest.java" afterPath="$PROJECT_DIR$/entities/src/org/example/entities/EntityPersonTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4ea339b1-91a1-4c67-a11e-9e3d983fde7f" name="Default" comment="" />
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,7 +78,7 @@
       <file leaf-file-name="EntityPersonTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="24" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.62826085" vertical-offset="578" max-vertical-offset="1207">
+            <state line="53" column="42" selection-start="1846" selection-end="1846" vertical-scroll-proportion="1.9758772" vertical-offset="0" max-vertical-offset="1207">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -548,7 +544,7 @@
       <created>1384620104324</created>
       <updated>1384620104324</updated>
       <workItem from="1384620106946" duration="23573000" />
-      <workItem from="1384705254129" duration="2756000" />
+      <workItem from="1384705254129" duration="4197000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1384670638199</created>
@@ -570,14 +566,18 @@
       <created>1384672177649</created>
       <updated>1384672177649</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit&#10;">
+      <created>1384708145204</created>
+      <updated>1384708145204</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26329000" />
+    <option name="totallyTimeSpent" value="27770000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -595,7 +595,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3259362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32775453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19526628" sideWeight="0.61886793" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -909,7 +909,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="24" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.62826085" vertical-offset="578" max-vertical-offset="1207">
+        <state line="53" column="42" selection-start="1846" selection-end="1846" vertical-scroll-proportion="1.9758772" vertical-offset="0" max-vertical-offset="1207">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
