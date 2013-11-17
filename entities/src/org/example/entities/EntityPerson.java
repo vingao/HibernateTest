@@ -1,5 +1,8 @@
 package org.example.entities;
 
+import org.hibernate.annotations.FetchMode;
+import org.hibernate.annotations.Fetch;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
@@ -83,6 +86,7 @@ public class EntityPerson {
     }
 
     @OneToMany(mappedBy = "personByPersonId")
+    //@Fetch(FetchMode.JOIN)
     public Collection<EntityEmail> getEmailsById() {
         return emailsById;
     }
@@ -90,7 +94,7 @@ public class EntityPerson {
     public void setEmailsById(Collection<EntityEmail> emailsById) {
         this.emailsById = emailsById;
     }
-
+    /*
     @OneToMany(mappedBy = "personByPersonId")
     public Collection<EntityPhone> getPhonesById() {
         return phonesById;
@@ -99,4 +103,5 @@ public class EntityPerson {
     public void setPhonesById(Collection<EntityPhone> phonesById) {
         this.phonesById = phonesById;
     }
+    */
 }

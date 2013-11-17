@@ -40,14 +40,14 @@ public class EntityPersonTest {
         Transaction tx = null;
         try {
             tx = session.beginTransaction();
-            List phones = session.createQuery("FROM EntityPerson").list();
+            List phones = session.createQuery("FROM EntityPerson p join fetch p.emailsById").list();
             for (Iterator iterator = phones.iterator(); iterator.hasNext(); ) {
                 EntityPerson person = (EntityPerson) iterator.next();
                 System.out.print("id: " + person.getId());
                 System.out.print(" Name: " + person.getCompleteName());
                 System.out.println(" Birth date: " + person.getBirthDate());
                 System.out.println(" Emails: " + person.getEmailsById());
-                System.out.println(" Phones: " + person.getPhonesById());
+                //System.out.println(" Phones: " + person.getPhonesById());
             }
             tx.commit();
         } catch (HibernateException e) {
