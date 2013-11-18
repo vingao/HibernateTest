@@ -103,5 +103,13 @@ public class EntityPerson {
     public void setPhonesById(Collection<EntityPhone> phonesById) {
         this.phonesById = phonesById;
     }
-    
+
+
+    @Override
+    public String toString() {
+        return "[id: " + getId()+ " Name: " + getCompleteName() +" Birth date: " + getBirthDate()
+                + " Emails: " + getEmailsById()
+                //+ " Phones: " + getPhonesById()
+                + "]";
+    }
 }

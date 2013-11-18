@@ -62,4 +62,9 @@ public class EntityEmail {
     public void setPersonByPersonId(EntityPerson personByPersonId) {
         this.personByPersonId = personByPersonId;
     }
+
+    @Override
+    public String toString() {
+        return "[id: " + getId() + "email: " + getEmail() + "]";
+    }
 }

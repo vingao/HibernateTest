@@ -1,6 +1,7 @@
 package org.example.entities;
 
 import org.apache.log4j.PropertyConfigurator;
+import org.hibernate.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -9,10 +10,6 @@ import java.util.List;
 
 import java.util.Iterator;
 
-import org.hibernate.HibernateException;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
-import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 /**
@@ -40,14 +37,13 @@ public class EntityPersonTest {
         Transaction tx = null;
         try {
             tx = session.beginTransaction();
-            List phones = session.createQuery("FROM EntityPerson p join fetch p.emailsById").list();
-            for (Iterator iterator = phones.iterator(); iterator.hasNext(); ) {
-                EntityPerson person = (EntityPerson) iterator.next();
-                System.out.print("id: " + person.getId());
-                System.out.print(" Name: " + person.getCompleteName());
-                System.out.println(" Birth date: " + person.getBirthDate());
-                System.out.println(" Emails: " + person.getEmailsById());
-                System.out.println(" Phones: " + person.getPhonesById());
+            Criteria criteria = session.createCriteria(EntityPerson.class);
+            criteria.setFetchMode("emailsById", FetchMode.JOIN);
+            criteria.setFetchMode("phonesById", FetchMode.JOIN);
+            //List<EntityPerson> persons = (List<EntityPerson>) session.createQuery("FROM EntityPerson p left join fetch p.emailsById left join p.phonesById").list();
+            List<EntityPerson> persons = (List<EntityPerson>) session.createQuery("FROM EntityPerson p left join fetch p.emailsById").list();
+            for (EntityPerson person : persons) {
+                System.out.println(person);
             }
             tx.commit();
         } catch (HibernateException e) {
