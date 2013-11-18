@@ -107,9 +107,9 @@ public class EntityPerson {
 
     @Override
     public String toString() {
-        return "[id: " + getId()+ " Name: " + getCompleteName() +" Birth date: " + getBirthDate()
-                + " Emails: " + getEmailsById()
-                //+ " Phones: " + getPhonesById()
+        return "[id: " + getId()+ ", Name: " + getCompleteName() +", Birth date: " + getBirthDate()
+                + ", Emails: " + getEmailsById()
+                + ", Phones: " + getPhonesById()
                 + "]";
     }
 }

@@ -65,6 +65,6 @@ public class EntityEmail {
 
     @Override
     public String toString() {
-        return "[id: " + getId() + "email: " + getEmail() + "]";
+        return "[id: " + getId() + ", email: " + getEmail() + "]";
     }
 }

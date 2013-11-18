@@ -62,4 +62,10 @@ public class EntityPhone {
     public void setPersonByPersonId(EntityPerson personByPersonId) {
         this.personByPersonId = personByPersonId;
     }
+
+    @Override
+    public String toString() {
+        return "[id: " + getId() + ", phone: " + getPhoneNumber() + "]";
+    }
+
 }
