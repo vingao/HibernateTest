@@ -94,7 +94,7 @@ public class EntityPerson {
     public void setEmailsById(Collection<EntityEmail> emailsById) {
         this.emailsById = emailsById;
     }
-    /*
+
     @OneToMany(mappedBy = "personByPersonId")
     public Collection<EntityPhone> getPhonesById() {
         return phonesById;
@@ -103,5 +103,5 @@ public class EntityPerson {
     public void setPhonesById(Collection<EntityPhone> phonesById) {
         this.phonesById = phonesById;
     }
-    */
+    
 }

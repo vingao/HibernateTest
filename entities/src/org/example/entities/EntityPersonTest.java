@@ -47,7 +47,7 @@ public class EntityPersonTest {
                 System.out.print(" Name: " + person.getCompleteName());
                 System.out.println(" Birth date: " + person.getBirthDate());
                 System.out.println(" Emails: " + person.getEmailsById());
-                //System.out.println(" Phones: " + person.getPhonesById());
+                System.out.println(" Phones: " + person.getPhonesById());
             }
             tx.commit();
         } catch (HibernateException e) {
