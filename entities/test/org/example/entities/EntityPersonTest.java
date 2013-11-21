@@ -2,15 +2,12 @@ package org.example.entities;
 
 import org.apache.log4j.PropertyConfigurator;
 import org.hibernate.*;
+import org.hibernate.cfg.Configuration;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.List;
-
-import java.util.Iterator;
-
-import org.hibernate.cfg.Configuration;
 
 /**
  * Created by a202898 on 11/16/13.

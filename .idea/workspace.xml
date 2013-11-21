@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ea339b1-91a1-4c67-a11e-9e3d983fde7f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entities/src/org/example/entities/EntityEmail.java" afterPath="$PROJECT_DIR$/entities/src/org/example/entities/EntityEmail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entities/src/org/example/entities/EntityPerson.java" afterPath="$PROJECT_DIR$/entities/src/org/example/entities/EntityPerson.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entities/src/org/example/entities/EntityPhone.java" afterPath="$PROJECT_DIR$/entities/src/org/example/entities/EntityPhone.java" />
+      <change type="DELETED" beforePath="C:\Users\a202898\workspace\IdeaProjects\HibernateTest\entities\src\org\example\entities\EntityPersonTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entities/entities.iml" afterPath="$PROJECT_DIR$/entities/entities.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="untitled.iws" />
@@ -16,6 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -69,28 +73,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EntityPerson.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPerson.java">
+      <file leaf-file-name="EntityEmail.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityEmail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="17" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.529976" vertical-offset="1122" max-vertical-offset="1547">
+            <state line="36" column="27" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityPhone.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPhone.java">
+      <file leaf-file-name="EntityPersonTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/entities/test/org/example/entities/EntityPersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="32" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="1088">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityPersonTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPersonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="105" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0" vertical-offset="421" max-vertical-offset="1139">
+            <state line="14" column="31" selection-start="312" selection-end="312" vertical-scroll-proportion="-0.42183623" vertical-offset="408" max-vertical-offset="1088">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,10 +93,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityEmail.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityEmail.java">
+      <file leaf-file-name="EntityPhone.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPhone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="38" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1071">
+            <state line="61" column="32" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="1088">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityPerson.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPerson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="17" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1547">
               <folding />
             </state>
           </provider>
@@ -131,14 +135,57 @@
         <option value="$PROJECT_DIR$/entities/src/org/example/entities/EntityPhone.java" />
         <option value="$PROJECT_DIR$/entities/src/org/example/entities/EntityEmail.java" />
         <option value="$PROJECT_DIR$/entities/src/org/example/entities/EntityPerson.java" />
+        <option value="$PROJECT_DIR$/contacts-web/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/contacts-web/web/home.xhtml" />
+        <option value="$PROJECT_DIR$/contacts-web/web/test.xhtml" />
+        <option value="$PROJECT_DIR$/entities/test/org/example/entities/EntityPersonTest.java" />
       </list>
     </option>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\XTRAC\programs\apache-maven-3.0.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-2" />
-    <option name="width" value="1452" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
     <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -147,7 +194,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -173,6 +220,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -181,14 +229,6 @@
               <option name="myItemId" value="untitled" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -196,15 +236,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
+              <option name="myItemId" value="entities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,52 +246,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
+              <option name="myItemId" value="entities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="entities" />
@@ -295,26 +287,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="entities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,32 +306,41 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/log4j-1.2.17.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/contacts-web/web" />
     <property name="JPA.DatabaseSchemaImportDialog" value="358ce2cd-3ce3-44b3-bb9b-6a42419d8319" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="Downloaded.Files.Path" value="C:\Users\a202898\workspace\IdeaProjects\HibernateTest\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.entities" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.entities" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.entities" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
       <recent name="org.example.entities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\a202898\IdeaProjects\untitled\entities\src" />
       <recent name="C:\Users\a202898\IdeaProjects\untitled\entities" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="org.example.entities" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.EntityPersonTest.testSelect">
@@ -384,6 +370,89 @@
       <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.40" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/index.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="contacts-web:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_untitled" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50237" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="contacts-web:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="home.xhtml" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:80/home.xhtml">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
@@ -473,6 +542,74 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.40" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_untitled" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50237" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -578,6 +715,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -597,18 +740,16 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.EntityPersonTest.testSelect" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.home.xhtml" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JUnit.EntityPersonTest.testSelect" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.home.xhtml" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -643,7 +784,10 @@
       <workItem from="1384705254129" duration="4197000" />
       <workItem from="1384736631858" duration="702000" />
       <workItem from="1384739450239" duration="4072000" />
-      <workItem from="1384804389185" duration="1031000" />
+      <workItem from="1384804389185" duration="7465000" />
+      <workItem from="1384999912825" duration="1596000" />
+      <workItem from="1385003790109" duration="1411000" />
+      <workItem from="1385005221383" duration="1122000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1384670638199</created>
@@ -673,40 +817,62 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33575000" />
+    <option name="totallyTimeSpent" value="44138000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-2" width="1452" height="876" extended-state="1" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4683908" sideWeight="0.29056603" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.048920862" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19526628" sideWeight="0.61886793" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20791367" sideWeight="0.7056604" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3855756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18651363" sideWeight="0.3325792" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32732317" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16068867" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40027893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32545203" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19496402" sideWeight="0.61886793" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18651363" sideWeight="0.6674208" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3852573" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50764954" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hibernate Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50906557" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35971224" sideWeight="0.414966" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -733,19 +899,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPerson.java">
+    <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="2954" selection-end="2954" vertical-scroll-proportion="0.0" vertical-offset="1802" max-vertical-offset="2057">
+        <state line="11" column="26" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPersonTest.java">
+    <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="41" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1139">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="46" column="5" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="0" selection-start="2954" selection-end="2954" vertical-scroll-proportion="0.0" vertical-offset="1802" max-vertical-offset="2057">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -763,28 +934,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="16" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1207">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPerson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="26" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1921">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="42" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1207">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,8 +949,8 @@
           <nodes>
             <node x="148.75" y="329.0">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIUSER</node>
             <node x="465.75" y="339.0">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOBTRIGGER</node>
-            <node x="722.75" y="638.0">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOB</node>
             <node x="1079.75" y="279.0">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOBREPODEST</node>
+            <node x="722.75" y="638.0">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOB</node>
             <node x="1496.75" y="329.0">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOBALERT</node>
             <node x="59.5" y="0.0">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JITENANT</node>
             <node x="762.75" y="329.0">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOBMAIL</node>
@@ -808,19 +961,19 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIUSER" target="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JITENANT">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOB" target="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOBALERT">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOB" target="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOBREPODEST">
+            <edge source="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIUSER" target="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JITENANT">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOB" target="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOBMAIL">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOB" target="2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTJOBREPODEST">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -853,8 +1006,8 @@
           <OriginalElement>2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTUNIT</OriginalElement>
           <nodes>
             <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIRESOURCE</node>
-            <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIFILERESOURCE</node>
             <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIREPORTUNIT</node>
+            <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIFILERESOURCE</node>
             <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIRESOURCEFOLDER</node>
             <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIQUERY</node>
           </nodes>
@@ -927,8 +1080,8 @@
           <ID>DATABASE</ID>
           <OriginalElement>2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIDASHBOARDRESOURCE</OriginalElement>
           <nodes>
-            <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIRESOURCE</node>
             <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIDASHBOARDRESOURCE</node>
+            <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIRESOURCE</node>
             <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIDASHBOARD</node>
             <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIADHOCSTATE</node>
             <node x="" y="">2707fd8c-423b-4853-b483-24c3f0fde158.table:XRAJSDMDBO.JIRESOURCEFOLDER</node>
@@ -953,13 +1106,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="20" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15470" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entities/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="uml://DATABASE/358ce2cd-3ce3-44b3-bb9b-6a42419d8319.table:CIWS.EMAIL">
@@ -1017,8 +1163,8 @@
           <OriginalElement>358ce2cd-3ce3-44b3-bb9b-6a42419d8319.table:CIWS.PHONE</OriginalElement>
           <nodes>
             <node x="" y="">358ce2cd-3ce3-44b3-bb9b-6a42419d8319.table:CIWS.EMAIL</node>
-            <node x="" y="">358ce2cd-3ce3-44b3-bb9b-6a42419d8319.table:CIWS.PHONE</node>
             <node x="" y="">358ce2cd-3ce3-44b3-bb9b-6a42419d8319.table:CIWS.PERSON</node>
+            <node x="" y="">358ce2cd-3ce3-44b3-bb9b-6a42419d8319.table:CIWS.PHONE</node>
           </nodes>
           <notes />
           <edges />
@@ -1033,27 +1179,27 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/7820ced1/358ce2cd-3ce3-44b3-bb9b-6a42419d8319/.CIWS.PERSON">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/7820ced1/358ce2cd-3ce3-44b3-bb9b-6a42419d8319/.CIWS.PHONE">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/7820ced1/358ce2cd-3ce3-44b3-bb9b-6a42419d8319/.CIWS.EMAIL">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
       </provider>
     </entry>
     <entry file="jar://C:/XTRAC/programs/jdk1.7.0_45/src.zip!/java/lang/Object.java">
@@ -1063,33 +1209,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPersonTest.java">
+    <entry file="file://$PROJECT_DIR$/entities/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="105" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0" vertical-offset="421" max-vertical-offset="1139">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="9" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="459">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="38" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0" vertical-offset="654" max-vertical-offset="1071">
-          <folding />
+    <entry file="uml://Persistence/JavaeeElement:/7820ced1/hibernate.cfg.xml/entities/hibernate/Hibernate/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/7820ced1/hibernate.cfg.xml/entities/hibernate/Hibernate/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">EntityPhone#file://C:/Users/a202898/workspace/IdeaProjects/HibernateTest/entities/src/org/example/entities/EntityPhone.java</node>
+            <node x="162.0" y="0.0">EntityEmail#file://C:/Users/a202898/workspace/IdeaProjects/HibernateTest/entities/src/org/example/entities/EntityEmail.java</node>
+            <node x="61.0" y="117.0">EntityPerson#file://C:/Users/a202898/workspace/IdeaProjects/HibernateTest/entities/src/org/example/entities/EntityPerson.java</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="EntityPerson#file://C:/Users/a202898/workspace/IdeaProjects/HibernateTest/entities/src/org/example/entities/EntityPerson.java" target="EntityPhone#file://C:/Users/a202898/workspace/IdeaProjects/HibernateTest/entities/src/org/example/entities/EntityPhone.java">
+              <point x="-45.5" y="-53.5" />
+              <point x="106.5" y="92.0" />
+              <point x="71.0" y="92.0" />
+              <point x="0.0" y="33.5" />
+            </edge>
+            <edge source="EntityPerson#file://C:/Users/a202898/workspace/IdeaProjects/HibernateTest/entities/src/org/example/entities/EntityPerson.java" target="EntityEmail#file://C:/Users/a202898/workspace/IdeaProjects/HibernateTest/entities/src/org/example/entities/EntityEmail.java">
+              <point x="45.5" y="-53.5" />
+              <point x="197.5" y="92.0" />
+              <point x="233.0" y="92.0" />
+              <point x="0.0" y="33.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="112.0" />
+          <SelectedNodes>
+            <node>EntityPerson#file://C:/Users/a202898/workspace/IdeaProjects/HibernateTest/entities/src/org/example/entities/EntityPerson.java</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.example.entities.EntityEmail">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.example.entities.EntityEmail</OriginalElement>
+          <nodes>
+            <node x="80.0" y="0.0">javax.persistence.Table</node>
+            <node x="0.0" y="0.0">javax.persistence.Entity</node>
+            <node x="27.5" y="77.0">org.example.entities.EntityEmail</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.example.entities.EntityEmail" target="javax.persistence.Table">
+              <point x="21.0" y="-13.5" />
+              <point x="90.5" y="52.0" />
+              <point x="109.0" y="52.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="org.example.entities.EntityEmail" target="javax.persistence.Entity">
+              <point x="-21.0" y="-13.5" />
+              <point x="48.5" y="52.0" />
+              <point x="30.0" y="52.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-146.0" y="76.0" />
+          <SelectedNodes>
+            <node>org.example.entities.EntityEmail</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.example.entities.EntityPerson">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.example.entities.EntityPerson</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">javax.persistence.Table</node>
+            <node x="78.0" y="0.0">javax.persistence.Entity</node>
+            <node x="22.0" y="77.0">org.example.entities.EntityPerson</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.example.entities.EntityPerson" target="javax.persistence.Table">
+              <point x="-23.25" y="-13.5" />
+              <point x="45.25" y="52.0" />
+              <point x="29.0" y="52.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="org.example.entities.EntityPerson" target="javax.persistence.Entity">
+              <point x="23.25" y="-13.5" />
+              <point x="91.75" y="52.0" />
+              <point x="108.0" y="52.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="69.0" y="62.5" />
+          <SelectedNodes>
+            <node>org.example.entities.EntityPerson</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPhone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="32" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="1088">
+        <state line="61" column="32" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityPerson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="17" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.529976" vertical-offset="1122" max-vertical-offset="1547">
+        <state line="109" column="17" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1547">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entities/src/org/example/entities/EntityEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="27" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entities/test/org/example/entities/EntityPersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="312" selection-end="312" vertical-scroll-proportion="-0.42183623" vertical-offset="408" max-vertical-offset="1088">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1099,10 +1359,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>contacts-web:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

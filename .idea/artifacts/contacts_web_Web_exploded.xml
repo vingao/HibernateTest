@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="contacts-web:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/contacts_web_Web_exploded</output-path>
+    <root id="archive" name="contacts-web_Web exploded.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="contacts-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Mojarra-1.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="contacts-web/web/Web" />
+    </root>
+  </artifact>
+</component>
